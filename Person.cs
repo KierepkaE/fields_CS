@@ -2,12 +2,11 @@ using System;
 
 namespace Fields {
   class Person {
-    private DateTime _birthday;
-    public void SetBirthdate (DateTime birthdate) {
-      _birthdate = birthdate;
-    };
-    public DateTime GetBirthdate () {
-      return _birthdate;
-    };
+    private DateTime _birthdate;
+    public DateTime Birthdate {
+      get { return _birthdate };
+      set { _birthdate = value };
+    }
+
   };
 }
