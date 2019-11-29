@@ -4,7 +4,7 @@ namespace Fields {
   class Customer {
     public int Id;
     public string Name;
-    public List<Order> Orders = new List<Order> ();
+    public readonly List<Order> Orders = new List<Order> ();
 
     public Customer (int id) {
       this.Id = id;
