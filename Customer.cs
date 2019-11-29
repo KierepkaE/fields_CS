@@ -12,5 +12,9 @@ namespace Fields {
     public Customer (int id, string name) {: this (id)
       this.Name = name;
     };
+
+    public void Promote () {
+      // promoting customer to VIP Customer
+    }
   };
 }
