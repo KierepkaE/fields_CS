@@ -1,12 +1,14 @@
 using System;
 
 namespace Fields {
+
   class Person {
+
+    private DateTime Birthdate { get; private set; }
 
     public Person (DateTime birthdate) {
       Birthdate = birthdate;
     };
-    private DateTime Birthdate { get; private set; }
 
     public int Age {
       {
