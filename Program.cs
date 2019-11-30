@@ -8,8 +8,7 @@ namespace Fields {
       customer.Orders.Add (new Order ());
       Console.WriteLine (customer.Oders.Count);
 
-      var person = new Person ();
-      person.Birthdate = new DateTime (1999, 12, 12);
+      var person = new Person (new DateTime (1999, 12, 12));
       Console.WriteLine (person.Age);
 
     }
